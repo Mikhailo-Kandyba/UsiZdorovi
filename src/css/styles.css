@@ -86,6 +86,10 @@ h6 {
   padding-bottom: 7px;
   margin-bottom: 13px; }
 
+.z-index-2 {
+  position: relative;
+  z-index: 2; }
+
 .container {
   margin: 0 auto;
   max-width: 1290px;
@@ -96,6 +100,11 @@ h6 {
   color: #fff;
   border: none;
   border-radius: 50px;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 15px 44px; }
+
+.btn-sm {
   font-size: 19px;
   line-height: 19px;
   padding: 11px 51px; }
@@ -181,6 +190,8 @@ h6 {
   display: flex;
   justify-content: space-between;
   align-items: center; }
+  .navigation li {
+    margin-right: 29px; }
   .navigation .services #select-2 {
     border: none;
     font-family: 'Comfortaa', cursive;
@@ -191,3 +202,30 @@ h6 {
       cursor: pointer; }
     .navigation .services #select-2:focus {
       outline: none; }
+
+.banner {
+  background: #F9FBF9 url("../images/banner.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  min-height: 785px;
+  padding-top: 215px;
+  position: relative; }
+
+.decoration {
+  position: absolute;
+  top: 12px;
+  left: 134px; }
+
+.banner-text {
+  max-width: 650px; }
+  .banner-text h4 {
+    font-size: 25px;
+    line-height: 28px;
+    margin-bottom: 28px; }
+  .banner-text h2 {
+    font-size: 63px;
+    line-height: 58px;
+    margin-bottom: 21px; }
+  .banner-text p {
+    padding-right: 100px;
+    margin-bottom: 33px; }
