@@ -54,9 +54,12 @@ a {
   color: #58595B;
   text-decoration: none; }
   a:hover {
-    color: #003DBB; }
+    color: #39B54A; }
   a:focus {
     outline: none; }
+
+i {
+  color: #39B54A; }
 
 button {
   cursor: pointer; }
@@ -78,11 +81,24 @@ h5,
 h6 {
   font-weight: 700; }
 
+.border-bottom {
+  border-bottom: solid 1px #F1F1F1;
+  padding-bottom: 7px;
+  margin-bottom: 13px; }
+
 .container {
   margin: 0 auto;
-  max-width: 1280px;
-  padding: 0 15px;
-  width: 100%; }
+  max-width: 1290px;
+  padding: 0 15px; }
+
+.btn {
+  background: #39B54A;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-size: 19px;
+  line-height: 19px;
+  padding: 11px 51px; }
 
 .mobile-menu-navigation {
   position: fixed;
@@ -134,3 +150,44 @@ h6 {
   .btn-menu.active .bottom {
     transform: translateY(-8px) translateX(0) rotate(-45deg);
     background: #fff; }
+
+.header {
+  padding: 8px 0 7px; }
+
+.header-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header-area .social-networks {
+    display: flex; }
+    .header-area .social-networks li {
+      margin-right: 21px; }
+      .header-area .social-networks li i {
+        font-size: 27px;
+        border-radius: 5px; }
+    .header-area .social-networks #select {
+      border: none;
+      padding: 3px;
+      font-size: 20px;
+      color: #58595B;
+      font-family: 'Comfortaa', cursive; }
+      .header-area .social-networks #select:hover {
+        color: #39B54A;
+        cursor: pointer; }
+      .header-area .social-networks #select:focus {
+        outline: none; }
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .navigation .services #select-2 {
+    border: none;
+    font-family: 'Comfortaa', cursive;
+    font-size: 17px;
+    color: #58595B; }
+    .navigation .services #select-2:hover {
+      color: #39B54A;
+      cursor: pointer; }
+    .navigation .services #select-2:focus {
+      outline: none; }

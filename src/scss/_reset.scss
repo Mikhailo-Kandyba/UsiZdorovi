@@ -58,12 +58,16 @@ a {
   text-decoration: none;
 
   &:hover {
-    color: #003DBB;
+    color: #39B54A;
   }
 
   &:focus {
     outline: none;
   }
+}
+
+i {
+  color: #39B54A;
 }
 
 button {

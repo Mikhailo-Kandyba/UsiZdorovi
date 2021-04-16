@@ -1,0 +1,63 @@
+.header {
+  padding: 8px 0 7px;
+}
+
+.header-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .social-networks {
+    display: flex;
+
+    li {
+      margin-right: 21px;
+
+      i {
+        font-size: 27px;
+        border-radius: 5px;
+      }
+    }
+
+    #select {
+      border: none;
+      padding: 3px;
+      font-size: 20px;
+      color: #58595B;
+      font-family: 'Comfortaa', cursive;
+
+      &:hover {
+        color: #39B54A;
+        cursor: pointer;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .services {
+    #select-2 {
+      border: none;
+      font-family: 'Comfortaa', cursive;
+      font-size: 17px;
+      color: #58595B;
+
+      &:hover {
+        color: #39B54A;
+        cursor: pointer;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
