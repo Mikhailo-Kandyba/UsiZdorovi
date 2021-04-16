@@ -105,8 +105,20 @@
 
 .img-area {
   display: flex;
+  position: relative;
 
   .text {
+    background: #E5E5E5;
+    padding: 62px 23px 83px 250px;
+    position: absolute;
+    right: 0;
+    top: -45px;
+
+    .bunny {
+      position: absolute;
+      right: 16px;
+      top: -178px;
+    }
 
     h5 {
       line-height: 37px;
@@ -123,7 +135,7 @@
       height: 270px;
 
       p {
-        max-width: 520px;
+        max-width: 535px;
       }
     }
   }
