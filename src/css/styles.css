@@ -28,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   height: 100%;
-  background: #fff;
+  background: #E5E5E5;
   font-size: 17px;
   line-height: 25px;
   font-family: 'Comfortaa', cursive;
@@ -89,6 +89,9 @@ h6 {
 .z-index-2 {
   position: relative;
   z-index: 2; }
+
+.border-radius-25 {
+  border-radius: 25px; }
 
 .container {
   margin: 0 auto;
@@ -209,7 +212,8 @@ h6 {
   background-repeat: no-repeat;
   min-height: 785px;
   padding-top: 215px;
-  position: relative; }
+  position: relative;
+  margin-bottom: 246px; }
 
 .decoration {
   position: absolute;
@@ -229,3 +233,17 @@ h6 {
   .banner-text p {
     padding-right: 100px;
     margin-bottom: 33px; }
+
+.img-area {
+  display: flex; }
+  .img-area .text h5 {
+    line-height: 37px; }
+  .img-area .text h2 {
+    font-size: 55px;
+    line-height: 58px;
+    text-align: left;
+    margin-bottom: 33px; }
+  .img-area .text .content {
+    height: 270px; }
+    .img-area .text .content p {
+      max-width: 520px; }

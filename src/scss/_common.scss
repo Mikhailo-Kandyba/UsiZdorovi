@@ -73,6 +73,7 @@
   min-height: 785px;
   padding-top: 215px;
   position: relative;
+  margin-bottom: 246px;
 }
 
 .decoration {
@@ -99,5 +100,31 @@
   p {
     padding-right: 100px;
     margin-bottom: 33px;
+  }
+}
+
+.img-area {
+  display: flex;
+
+  .text {
+
+    h5 {
+      line-height: 37px;
+    }
+
+    h2 {
+      font-size: 55px;
+      line-height: 58px;
+      text-align: left;
+      margin-bottom: 33px;
+    }
+
+    .content {
+      height: 270px;
+
+      p {
+        max-width: 520px;
+      }
+    }
   }
 }
