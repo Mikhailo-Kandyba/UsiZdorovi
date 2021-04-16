@@ -31,10 +31,11 @@ footer, header, hgroup, menu, nav, section {
 body {
   height: 100%;
   background: #fff;
-  font-size: 18px;
-  line-height: 22px;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  line-height: 25px;
+  font-family: 'Comfortaa', cursive;
   min-width: 320px;
+  color: #58595B;
 }
 ol, ul {
   list-style: none;
@@ -53,7 +54,7 @@ table {
 }
 
 a {
-  color: #151515;
+  color: #58595B;
   text-decoration: none;
 
   &:hover {
