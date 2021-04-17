@@ -204,20 +204,24 @@
 }
 
 .ui-accordion .ui-accordion-header {
-  background: #36CDC6;
+  background: #fff;
+  color: #58595B;
   border: none;
-  line-height: 25px;
   font-weight: bold;
-  color: #fff;
   position: relative;
   margin-bottom: 30px;
   cursor: pointer;
   width: 100%;
   border-radius: 53px;
   padding: 20px 77px 20px 70px;
+  box-shadow: 0 0 15px 0 rgba(34, 60, 80, 0.06);
 
   &:focus {
     outline: none;
+  }
+
+  &:hover {
+    background: #edf7f2;
   }
 }
 
