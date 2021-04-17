@@ -6,10 +6,43 @@
   font-size: 20px;
   line-height: 25px;
   padding: 15px 44px;
+  position: relative;
 }
 
 .btn-sm {
   font-size: 19px;
   line-height: 19px;
   padding: 11px 51px;
+}
+
+.btn-xl {
+  padding: 15px 96px;
+}
+
+.btn-sm {
+  padding: 27px 50px;
+}
+
+.btn-after-plus {
+  &:after {
+    content: "";
+    height: 2px;
+    background-color: #fff;
+    width: 39px;
+    position: absolute;
+    top: 26px;
+    left: 32px;
+    transform: rotate(90deg);
+  }
+
+  &:before {
+    content: "";
+    height: 2px;
+    background-color: #fff;
+    width: 39px;
+    position: absolute;
+    top: 26px;
+    left: 31px;
+    transform: rotate(0deg);
+  }
 }
