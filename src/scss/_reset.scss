@@ -68,6 +68,10 @@ a {
 
 i {
   color: #39B54A;
+
+  &:hover {
+    color: #30c938;
+  }
 }
 
 button {
@@ -75,6 +79,10 @@ button {
 
   &:focus {
     outline: none;
+  }
+
+  &:hover {
+    background: #30c938;
   }
 }
 
