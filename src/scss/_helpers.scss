@@ -1,7 +1,7 @@
 .border-bottom {
   border-bottom: solid 1px #F1F1F1;
-  padding-bottom: 7px;
   margin-bottom: 13px;
+  padding-bottom: 3px;
 }
 
 .border-bottom-8 {
@@ -30,7 +30,7 @@
 }
 
 .box-shadow {
-  box-shadow: 4px 0 49px -35px rgba(26, 23, 23, 1);
+  box-shadow: 0 0 8px 7px rgba(34, 60, 80, 0.02);
 }
 
 .width-33 {
@@ -48,6 +48,14 @@
 
 .margin-bottom-46 {
   margin-bottom: 46px;
+}
+
+.margin-bottom-20 {
+  margin-bottom: -20px;
+}
+
+.margin-bottom-190 {
+  margin-bottom: 190px;
 }
 
 .padding-right-125 {
@@ -153,17 +161,16 @@
 }
 
 .element-styles-2 {
-  .unique-block {
-    padding: 43px 40px 0;
+  padding: 43px 40px 0;
 
-    h3 {
-      font-size: 17px;
-      margin-bottom: 32px;
-    }
+  .title {
+    font-size: 17px;
+    margin-bottom: 27px;
+  }
 
-    p {
-      text-align: left;
-    }
+  p {
+    text-align: left;
+    font-size: 13px;
   }
 }
 

@@ -1,5 +1,5 @@
 .header {
-  padding: 8px 0 7px;
+  padding: 5px 0 17px;
 }
 
 .header-area {
@@ -88,7 +88,7 @@
   h4 {
     font-size: 25px;
     line-height: 28px;
-    margin-bottom: 28px;
+    margin-bottom: 24px;
   }
 
   h2 {
@@ -315,12 +315,18 @@
 
 
 .feedback-slider {
-  max-width: 700px;
+  width: 100%;
   position: relative;
+  margin-bottom: 5px;
 
   .slick-slide {
     padding: 0 15px;
   }
+}
+
+.slick-track {
+  height: 560px;
+  top: 24px;
 }
 
 .slick-arrow {
@@ -338,18 +344,12 @@
 .slick-next {
   position: absolute;
   left: auto;
-  right: 0;
-  top: 0;
-  height: 40px;
-  width: 18px;
-  border: solid 1px #c5c5c5;
-  border-radius: 5px;
+  right: -29px;
+  top: auto;
+  bottom: 0;
+  background: transparent;
   font-size: 0;
   margin-right: 15px;
-
-  &:hover {
-    border-color: #003DBB;
-  }
 
   &:after {
     position: absolute;
@@ -367,16 +367,16 @@
   margin-right: 15px;
 
   &:after {
-    background-image: url(../images/left.png);
+    background-image: url(../images/vector-l.png);
     transform: rotate(180deg);
   }
 }
 
 .slick-next {
-  margin-right: 70px;
+  margin-right: 65px;
 
   &:after {
-    background-image: url(../images/left.png);
+    background-image: url(../images/vector-l.png);
   }
 }
 
@@ -454,6 +454,11 @@
   }
 }
 
+.map {
+  margin-bottom: 73px;
+  margin-top: -65px;
+}
+
 .footer {
   background: #FCFCFC;
   padding: 30px 0;
@@ -461,7 +466,7 @@
 
 .list {
   position: relative;
-  max-width: 450px;
+  width: 36%;
 }
 
 .decoration-footer {
