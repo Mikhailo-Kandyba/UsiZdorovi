@@ -259,6 +259,10 @@
   align-items: center;
 }
 
+.doctors {
+  margin-bottom: 145px;
+}
+
 .doctors-text {
   max-width: 875px;
   margin-bottom: 115px;
@@ -288,4 +292,179 @@
   display: flex;
   justify-content: center;
   margin-top: -60px;
+}
+
+.reviews-text {
+  max-width: 880px;
+
+  h5 {
+    line-height: 35px;
+  }
+
+  h3 {
+    font-size: 55px;
+    line-height: 58px;
+    margin-bottom: 24px;
+  }
+
+  p {
+    margin-bottom: 24px;
+  }
+}
+
+
+
+.feedback-slider {
+  max-width: 700px;
+  position: relative;
+
+  .slick-slide {
+    padding: 0 15px;
+  }
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 0;
+  height: 50px;
+  width: 50px;
+  margin-top: -70px;
+  left: 0;
+  z-index: 5;
+  border: none;
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  left: auto;
+  right: 0;
+  top: 0;
+  height: 40px;
+  width: 18px;
+  border: solid 1px #c5c5c5;
+  border-radius: 5px;
+  font-size: 0;
+  margin-right: 15px;
+
+  &:hover {
+    border-color: #003DBB;
+  }
+
+  &:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.slick-prev {
+  margin-right: 15px;
+
+  &:after {
+    background-image: url(../images/left.png);
+    transform: rotate(180deg);
+  }
+}
+
+.slick-next {
+  margin-right: 70px;
+
+  &:after {
+    background-image: url(../images/left.png);
+  }
+}
+
+.feedback-slider button {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.contact-text {
+  max-width: 610px;
+
+  h5 {
+    line-height: 35px;
+  }
+
+  h3 {
+    font-size: 55px;
+    line-height: 58px;
+    margin-bottom: 24px;
+  }
+
+  p {
+    margin-bottom: 24px;
+  }
+}
+
+.contact-block {
+  padding: 40px 20px 80px 55px;
+}
+
+.contact-list {
+  li {
+    margin-bottom: 10px;
+  }
+
+  address {
+    font-style: inherit;
+    margin-right: 90px;
+  }
+
+  .telephone {
+    a {
+      display: block;
+    }
+  }
+
+  .social-networks {
+    i {
+      font-size: 30px;
+      margin-right: 20px;
+    }
+  }
+}
+
+.bunny-4 {
+  margin-bottom: 50px;
+}
+
+.img-rights {
+  text-align: right;
+  max-width: 390px;
+
+  a {
+    display: block;
+  }
+
+  .rights {
+    font-size: 12px;
+    line-height: 13px;
+  }
+}
+
+.footer {
+  background: #FCFCFC;
+  padding: 30px 0;
+}
+
+.list {
+  position: relative;
+  max-width: 450px;
+}
+
+.decoration-footer {
+  position: absolute;
+  bottom: -48px;
+  left: 0;
+}
+
+.logo-footer {
+  margin-bottom: 80px;
 }

@@ -54,3 +54,16 @@
     transform: rotate(0deg);
   }
 }
+
+.open-btn {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: underline;
+  color: #F68B1F;
+  font-size: 14px;
+  margin-bottom: 18px;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
