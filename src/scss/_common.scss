@@ -414,7 +414,12 @@
 
   address {
     font-style: inherit;
-    margin-right: 90px;
+    margin-right: -20px;
+
+    &:hover {
+      color: #39B54A;
+      cursor: pointer;
+    }
   }
 
   .telephone {
