@@ -2,6 +2,12 @@
   padding: 5px 0 17px;
 }
 
+.header-first-level {
+  border-bottom: solid 1px #F1F1F1;
+  margin-bottom: 13px;
+  padding-bottom: 3px;
+}
+
 .header-area {
   display: flex;
   justify-content: space-between;
@@ -44,25 +50,61 @@
   align-items: center;
 
   li {
-    margin-right: 29px;
+    margin-right: 45px;
   }
 
-  .services {
-    #select-2 {
-      border: none;
-      font-family: 'Comfortaa', cursive;
-      font-size: 17px;
-      color: #58595B;
+  .dropdown-menu {
+    position: relative;
+    min-width: 110px;
 
-      &:hover {
-        color: #39B54A;
-        cursor: pointer;
-      }
+    &:after {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 58%;
+      right: 0;
+      bottom: 0;
+      cursor: pointer;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-image: url(../images/header-vector.png);
+    }
 
-      &:focus {
-        outline: none;
+    &:hover {
+      .dropdown-list {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        display: block;
+        height: 200px;
+        box-shadow: 0 0 20px 0 rgba(34, 60, 80, 0.4);
+        border-radius: 25px;
+        background: #fff;
       }
     }
+  }
+  .dropdown-list {
+    display: none;
+    margin-top: 25px;
+    padding: 25px;
+  }
+}
+
+.mCustomScrollBox {
+  position: relative;
+}
+
+.mCSB_scrollTools {
+  &:after {
+    position: absolute;
+    background: #DBDBDB;
+    content: '';
+    width: 2px;
+    top: 0;
+    left: 7px;
+    right: 0;
+    bottom: 0;
   }
 }
 
@@ -73,7 +115,7 @@
   min-height: 785px;
   padding-top: 215px;
   position: relative;
-  margin-bottom: 246px;
+  margin-bottom: 202px;
 }
 
 .decoration {
@@ -94,7 +136,11 @@
   h2 {
     font-size: 63px;
     line-height: 58px;
-    margin-bottom: 21px;
+
+    strong {
+      font-weight: 300;
+      line-height: 75px;
+    }
   }
 
   p {
@@ -103,15 +149,20 @@
   }
 }
 
-.img-area {
+.about-us {
   display: flex;
+  justify-content: flex-end;
   position: relative;
+  margin-bottom: 190px;
+
+  .img-about-us {
+    position: absolute;
+    top: 45px;
+    left: 0;
+  }
 
   .text {
     padding: 62px 23px 83px 250px;
-    position: absolute;
-    right: 0;
-    top: -45px;
 
     .bunny {
       position: absolute;
@@ -140,8 +191,35 @@
   }
 }
 
+.mCSB_dragger_bar {
+  background-color: #F68B1F!important;
+}
+
+.mCSB_draggerRail {
+  background-color: transparent!important;
+}
+
+#mCSB_1_scrollbar_vertical {
+  &:after {
+    position: absolute;
+    background: #DBDBDB;
+    content: '';
+    width: 2px;
+    top: 0;
+    left: 7px;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.service {
+  overflow: hidden;
+  padding-bottom: 177px;
+}
+
 .service-text {
-  max-width: 760px;
+  max-width: 840px;
+  float: left;
 
   h5 {
     line-height: 35px;
@@ -158,19 +236,33 @@
   }
 }
 
-.unique-block {
-  position: relative;
+.service-block {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   text-align: center;
   padding: 60px 35px;
+  margin: 104px 2% -10px;
+  width: 29.3%;
+  float: left;
+  height: 330px;
+  position: relative;
+
+  .btn {
+    position: absolute;
+    bottom: -8%;
+  }
 
   img {
     margin-bottom: 35px;
+    height: 86px;
   }
 
   h3 {
-    font-size: 26px;
+    font-size: 23px;
     line-height: 28px;
     margin-bottom: 50px;
+    width: 100%;
   }
 }
 
@@ -282,16 +374,73 @@
   }
 }
 
+.doctors-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 175px;
+
+  .doctors-area {
+    display: flex;
+    width: 50%;
+    padding-right: 10px;
+    margin-bottom: 48px;
+
+    .doctors-block {
+      position: relative;
+      padding: 247px 122px 37px 53px;
+      margin-bottom: 90px;
+
+      h3 {
+        margin-bottom: 6px;
+        font-size: 25px;
+        line-height: 30px;
+      }
+
+      h4 {
+        margin-bottom: 10px;
+      }
+
+      h5 {
+        padding-right: 50px;
+        margin-bottom: 14px;
+      }
+
+      p {
+        margin-bottom: 4px;
+      }
+
+      .paragraph-sm {
+        font-size: 14px;
+        padding-right: 70px;
+      }
+    }
+  }
+}
+
+.doctors-block {
+  .btn {
+    position: absolute;
+    bottom: -29px;
+    right: 25%;
+  }
+}
+
 .doctor {
   position: absolute;
-  top: -11%;
-  right: 25%;
+  top: -10%;
+  right: 22%;
 }
 
 .holder-btn {
   display: flex;
   justify-content: center;
-  margin-top: -60px;
+  margin-top: -18%;
+}
+
+.reviews {
+  .holder-btn {
+    margin-top: -65px;
+  }
 }
 
 .reviews-text {
@@ -332,7 +481,7 @@
 .slick-arrow {
   position: absolute;
   top: 0;
-  height: 50px;
+  height: 17px;
   width: 50px;
   margin-top: -70px;
   left: 0;
@@ -344,9 +493,9 @@
 .slick-next {
   position: absolute;
   left: auto;
-  right: -29px;
+  right: -39px;
   top: auto;
-  bottom: 0;
+  bottom: 30px;
   background: transparent;
   font-size: 0;
   margin-right: 15px;
@@ -380,9 +529,56 @@
   }
 }
 
+.slick-dots {
+  display: flex;
+  width: 190px;
+  overflow: hidden;
+  position: absolute;
+  right: 112px;
+  bottom: 31px;
+
+  button {
+    font-size: 0;
+    border: none;
+    background: #E7E7E7;
+    margin-right: 15px;
+
+    &:hover {
+      background: #F68B1F;
+    }
+  }
+}
+
+.slick-active {
+  button {
+    background: #F68B1F;
+  }
+}
+
 .feedback-slider button {
   border-radius: 5px;
-  padding: 20px;
+  padding: 3px 25px;
+
+  &:hover {
+    background: #F68B1F;
+  }
+}
+
+.slide {
+  padding: 45px 30px;
+
+  .title {
+    line-height: 30px;
+    text-align: center;
+    border-bottom: solid 3px #00B63E;
+    padding-bottom: 10px;
+    margin-bottom: 24px;
+  }
+
+  p {
+    font-size: 14px;
+    text-align: left;
+  }
 }
 
 .contact-text {
@@ -456,17 +652,23 @@
 
 .map {
   margin-bottom: 73px;
-  margin-top: -65px;
+  margin-top: -61px;
 }
 
 .footer {
   background: #FCFCFC;
-  padding: 30px 0;
+  padding: 18px 0;
 }
 
-.list {
+.holder-list {
   position: relative;
   width: 36%;
+}
+
+.footer-list {
+  a {
+    font-size: 14px;
+  }
 }
 
 .decoration-footer {
