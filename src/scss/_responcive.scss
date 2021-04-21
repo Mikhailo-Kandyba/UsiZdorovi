@@ -1,0 +1,149 @@
+@media (max-width: 1289px) {
+
+  .banner {
+    min-height: 530px;
+    background-size: 800px;
+    padding-top: 140px;
+  }
+
+  .banner-text {
+    max-width: 520px;
+
+    h4 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+
+    h2 {
+      font-size: 48px;
+
+      strong {
+        line-height: 55px;
+      }
+    }
+
+    p {
+      padding-right: 20px ;
+    }
+  }
+
+  .decoration {
+    width: 290px;
+    left: 35px;
+  }
+
+  .about-us {
+    margin-bottom: 100px;
+
+    .img-about-us {
+      max-width: 500px;
+    }
+
+    .text {
+      padding: 72px 23px 72px 160px;
+
+      h5 {
+        font-size: 20px;
+      }
+
+      h2 {
+        font-size: 48px;
+        margin-bottom: 12px;
+      }
+
+      .content {
+        max-width: 420px;
+      }
+      .bunny {
+        max-width: 180px;
+      }
+    }
+  }
+
+  .service-text {
+    max-width: 640px;
+
+    h3 {
+      font-size: 48px;
+      margin-bottom: 5px;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+  }
+
+  .service-block {
+    margin: 64px 2% -10px;
+  }
+
+  .prices-text {
+    h3 {
+      font-size: 48px;
+      margin-bottom: 5px;
+    }
+  }
+
+  .doctors-text {
+    h3 {
+      margin-bottom: 5px;
+    }
+  }
+
+  .doctors-block {
+    .btn {
+      right: 18%;
+    }
+  }
+
+  .doctor {
+    right: 15%;
+  }
+
+  .holder-btn {
+    margin-top: -23%;
+  }
+
+  .reviews-text {
+    h3 {
+      font-size: 48px;
+      margin-bottom: 5px;
+    }
+  }
+
+  .slide {
+    .title {
+      line-height: 23px;
+    }
+  }
+
+  .slick-dots {
+    bottom: -60px;
+  }
+
+  .reviews {
+    .holder-btn {
+      margin-top: 26px;
+    }
+  }
+
+  .slick-prev,
+  .slick-next {
+    right: -9px;
+    bottom: -61px;
+  }
+
+  .margin-bottom-190 {
+    margin-bottom: 100px;
+  }
+
+  .contact-text {
+    max-width: 410px;
+    margin-right: 15px;
+
+    h3 {
+      font-size: 48px;
+      margin-bottom: 5px;
+    }
+  }
+}
