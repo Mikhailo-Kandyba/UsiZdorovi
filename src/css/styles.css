@@ -826,3 +826,131 @@ h6 {
     .contact-text h3 {
       font-size: 48px;
       margin-bottom: 5px; } }
+
+@media (max-width: 1023px) {
+  .btn {
+    font-size: 15px;
+    padding: 10px 30px; }
+  .logo {
+    margin-right: 70px; }
+  .navigation .dropdown-menu {
+    min-width: 80px; }
+    .navigation .dropdown-menu:after {
+      left: 87%; }
+  .navigation li {
+    margin-right: 29px; }
+    .navigation li a {
+      font-size: 15px; }
+  .banner {
+    background-size: 550px;
+    padding-top: 80px;
+    min-height: 420px; }
+  .banner-text {
+    max-width: 420px; }
+    .banner-text h4 {
+      font-size: 18px; }
+    .banner-text h2 {
+      font-size: 38px;
+      line-height: 45px; }
+    .banner-text p {
+      font-size: 15px; }
+  .about-us {
+    justify-content: center;
+    flex-direction: column-reverse;
+    margin-bottom: 150px; }
+    .about-us .img-about-us {
+      position: inherit;
+      max-width: 100%; }
+    .about-us .text {
+      padding: 72px 23px; }
+      .about-us .text .content {
+        max-width: 100%; }
+        .about-us .text .content p {
+          font-size: 15px; }
+      .about-us .text h5 {
+        font-size: 18px; }
+      .about-us .text h2 {
+        font-size: 38px;
+        line-height: 48px; }
+  .service-text {
+    max-width: 100%;
+    float: none; }
+    .service-text h3 {
+      font-size: 38px;
+      line-height: 48px; }
+    .service-text p {
+      font-size: 15px; }
+  .service-block {
+    margin: 64px 0 -10px;
+    width: 100%;
+    float: none; }
+  .btn-xl {
+    padding: 15px 96px; }
+  .prices-text {
+    max-width: 445px; }
+    .prices-text h3 {
+      font-size: 38px;
+      line-height: 48px; }
+    .prices-text p {
+      font-size: 15px; }
+  .bunny-2 {
+    max-width: 270px; }
+  .prices {
+    margin-bottom: 100px; }
+  .padding-right-125 {
+    margin-right: 65px; }
+  .btn-sm {
+    padding: 27px 50px; }
+  .accordion-block h5 {
+    line-height: 30px; }
+  .doctors-text p {
+    font-size: 15px; }
+  .doctors-list {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap; }
+    .doctors-list .doctors-area {
+      width: 100%; }
+      .doctors-list .doctors-area .doctors-block {
+        width: 100%;
+        padding: 247px 53px 37px 53px; }
+        .doctors-list .doctors-area .doctors-block .btn {
+          right: 35%; }
+  .btn-xxl {
+    padding: 15px 108px; }
+  .doctors .holder-btn {
+    justify-content: center; }
+  .doctor {
+    right: 27%; }
+  .max-width-445 {
+    max-width: 100%; }
+  .holder-btn {
+    margin-top: -28%; }
+  .reviews-text {
+    max-width: 445px; }
+    .reviews-text h3 {
+      font-size: 38px;
+      line-height: 48px; }
+    .reviews-text p {
+      font-size: 15px; }
+  .bunny {
+    max-width: 270px; }
+  .holder-btn {
+    justify-content: end; }
+  .feedback-slider {
+    height: 360px; }
+  .contact-text {
+    max-width: 300px; }
+    .contact-text h3 {
+      font-size: 38px;
+      line-height: 48px; }
+    .contact-text p {
+      font-size: 15px; }
+    .contact-text .contact-list {
+      font-size: 15px; }
+  .holder-list {
+    width: 100%; }
+  .decoration-footer {
+    bottom: 0; }
+  .bunny {
+    margin-right: 15px; } }
