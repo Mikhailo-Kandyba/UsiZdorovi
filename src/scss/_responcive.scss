@@ -148,7 +148,11 @@
   }
 
   .ui-accordion-content {
-    height: 500px !important;
+    height: 490px !important;
+  }
+
+  iframe {
+    width: 100%;
   }
 }
 
@@ -395,6 +399,14 @@
   .bunny {
     margin-right: 15px;
   }
+
+  .map {
+    margin-bottom: 13px;
+  }
+
+  iframe {
+    height: 300px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -408,13 +420,16 @@
 
     .header-area  {
     flex-direction: column;
+      position: relative;
 
     .logo {
       margin-right: 0;
+      padding-top: 30px;
     }
 
     .social-networks {
-      margin-right: 105px;
+      position: absolute;
+      left: 0;
     }
   }
 
@@ -504,6 +519,7 @@
     margin-bottom: 0;
 
     .doctors-area {
+      padding-right: 0;
       .doctors-block {
         padding: 145px 15px 25px 15px;
 
@@ -523,7 +539,7 @@
   }
 
   .doctor {
-    right: 12%;
+    right: 13%;
     max-width: 210px;
   }
 
@@ -553,6 +569,17 @@
 
   .display-flex-3 {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .holder-btn {
+    justify-content: center;
+  }
+
+  .contact-list {
+    address {
+      margin-right: 0;
+    }
   }
 
   .contact-block {

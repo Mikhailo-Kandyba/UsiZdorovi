@@ -232,7 +232,8 @@ h6 {
   max-width: 865px;
   background-color: #fff;
   transition: all .25s ease;
-  overflow: auto; }
+  overflow: auto;
+  box-shadow: -24px 0px 24px -12px rgba(34, 60, 80, 0.2); }
   .mobile-menu-navigation .navigation {
     display: block;
     padding: 60px 108px 50px 30px; }
@@ -733,6 +734,8 @@ h6 {
 .map {
   margin-bottom: 73px;
   margin-top: -61px; }
+  .map iframe {
+    width: 100%; }
 
 .footer {
   background: #FCFCFC;
@@ -829,7 +832,9 @@ h6 {
       font-size: 48px;
       margin-bottom: 5px; }
   .ui-accordion-content {
-    height: 500px !important; } }
+    height: 490px !important; }
+  iframe {
+    width: 100%; } }
 
 @media (max-width: 1023px) {
   .btn {
@@ -959,7 +964,11 @@ h6 {
   .decoration-footer {
     bottom: 0; }
   .bunny {
-    margin-right: 15px; } }
+    margin-right: 15px; }
+  .map {
+    margin-bottom: 13px; }
+  iframe {
+    height: 300px; } }
 
 @media (max-width: 767px) {
   .header {
@@ -967,11 +976,14 @@ h6 {
   .header-first-level {
     margin-bottom: 0; }
   .header-area {
-    flex-direction: column; }
+    flex-direction: column;
+    position: relative; }
     .header-area .logo {
-      margin-right: 0; }
+      margin-right: 0;
+      padding-top: 30px; }
     .header-area .social-networks {
-      margin-right: 105px; }
+      position: absolute;
+      left: 0; }
   .navigation {
     display: none; }
   .banner {
@@ -1018,16 +1030,18 @@ h6 {
     margin-top: 30px; }
   .doctors-list {
     margin-bottom: 0; }
-    .doctors-list .doctors-area .doctors-block {
-      padding: 145px 15px 25px 15px; }
-      .doctors-list .doctors-area .doctors-block h5 {
-        padding-right: 0; }
-      .doctors-list .doctors-area .doctors-block .paragraph-sm {
-        padding-right: 0; }
-      .doctors-list .doctors-area .doctors-block .btn {
-        right: 11%; }
+    .doctors-list .doctors-area {
+      padding-right: 0; }
+      .doctors-list .doctors-area .doctors-block {
+        padding: 145px 15px 25px 15px; }
+        .doctors-list .doctors-area .doctors-block h5 {
+          padding-right: 0; }
+        .doctors-list .doctors-area .doctors-block .paragraph-sm {
+          padding-right: 0; }
+        .doctors-list .doctors-area .doctors-block .btn {
+          right: 11%; }
   .doctor {
-    right: 12%;
+    right: 13%;
     max-width: 210px; }
   .doctors {
     margin-bottom: 100px; }
@@ -1044,7 +1058,12 @@ h6 {
     right: 80px;
     bottom: -50px; }
   .display-flex-3 {
-    flex-direction: column; }
+    flex-direction: column;
+    align-items: center; }
+  .holder-btn {
+    justify-content: center; }
+  .contact-list address {
+    margin-right: 0; }
   .contact-block {
     padding: 40px 15px 80px 15px; }
   .contact-list {
