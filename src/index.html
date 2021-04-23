@@ -16,38 +16,41 @@
 <body>
     <div id="wrapper">
         <header class="header">
+            <span id="top"></span>
             <div class="header-first-level">
                 <section class="container">
                     <div class="header-area">
-                        <ul class="social-networks">
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <div class="languages">
-                                    <form action="#">
-                                        <fieldset>
-                                            <select name="select" id="select">
-                                                <option selected>RU</option>
-                                                <option>UA</option>
-                                                <option>ENG</option>
-                                            </select>
-                                        </fieldset>
-                                    </form>
-                                </div>
-                            </li>
-                        </ul>
                         <a class="logo" href="#">
                             <img src="../images/logo.png" alt="logo">
                         </a>
-                        <button class="btn btn-sm-h">Запис Online</button>
+                        <div class="btn-navigation">
+                            <button class="btn btn-sm-h">Запис Online</button>
+                            <ul class="social-networks">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="languages">
+                                        <form action="#">
+                                            <fieldset>
+                                                <select name="select" id="select">
+                                                    <option selected>RU</option>
+                                                    <option>UA</option>
+                                                    <option>ENG</option>
+                                                </select>
+                                            </fieldset>
+                                        </form>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </section>
             </div>
@@ -279,7 +282,7 @@
             </div>
             <section class="container">
                 <div class="about-us">
-                    <img class="img-about-us border-radius-25 z-index-5" src="../images/history.png" alt="history">
+                    <img class="img-about-us border-radius-25 z-index-5" src="../images/our-photo.png" alt="our-photo">
                     <div class=" text border-radius-25 box-shadow">
                         <img class="bunny" src="../images/bunny.png" alt="bunny">
                         <h5>
@@ -301,95 +304,110 @@
                             </p>
                         </div>
                     </div>
-                </div>
-            </section>
-            <section class="container">
-                <div class="service">
-                    <div class="service-text">
-                        <h5>
-                            Те, в чому ми кращі
-                        </h5>
-                        <h3>
-                            НАШІ ПОСЛУГИ
-                        </h3>
-                        <p>
-                            Сайт рыбатекст поможет дизайнеру, верстальщику,
-                            вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающем.
-                        </p>
-                        <p>
-                            При создании генератора мы использовали небезизвестный
-                            универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет.
-                        </p>
-                        <p>
-                            По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у
-                            некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum.
-                        </p>
-                    </div>
-                    <div class="service-block border-radius-53 box-shadow">
-                        <img class="decor" src="../images/decor.png" alt="decor">
-                        <h3>
-                            КОНСУЛЬТАЦІЯ ЛІКАРІВ
-                        </h3>
-                        <button class="btn btn-xl">
-                            Детальніше
-                        </button>
-                    </div>
-                    <div class="service-block border-radius-53 box-shadow">
-                        <img class="decor" src="../images/decor.png" alt="decor">
-                        <h3>
-                            ВИКЛИК ЛІКАРЯ ДОДОМУ
-                        </h3>
-                        <button class="btn btn-xl">
-                            Детальніше
-                        </button>
-                    </div>
-                    <div class="service-block border-radius-53 box-shadow">
-                                <img class="decor" src="../images/decor.png" alt="decor">
-                                <h3>
-                                    ВАКЦИНАЦІЯ
-                                </h3>
-                                <button class="btn btn-xl">
-                                    Детальніше
-                                </button>
-                            </div>
-                    <div class="service-block border-radius-53 box-shadow">
-                        <img class="decor" src="../images/decor.png" alt="decor">
-                        <h3>
-                            МАНІПУЛЯЦІЇ
-                        </h3>
-                        <button class="btn btn-xl">
-                            Детальніше
-                        </button>
-                    </div>
-                    <div class="service-block border-radius-53 box-shadow">
-                        <img class="decor" src="../images/decor.png" alt="decor">
-                        <h3>
-                            ЛАБОРАТОРНА ДІАГНОСТИКА
-                        </h3>
-                        <button class="btn btn-xl">
-                            Детальніше
-                        </button>
-                    </div>
-                    <div class="service-block border-radius-53 box-shadow">
-                        <img class="decor" src="../images/decor.png" alt="decor">
-                        <h3>
-                            ТЕСТИ НА COVID-19
-                        </h3>
-                        <button class="btn btn-xl">
-                            Детальніше
-                        </button>
-                    </div>
-                    <div class="service-block border-radius-53 box-shadow">
-                        <img class="decor" src="../images/decor.png" alt="decor">
-                        <h3>
-                            АКЦІЇ
-                        </h3>
-                        <button class="btn btn-xl">
-                            Детальніше
-                        </button>
+                    <div class="fixed-btn">
+                        <div class="border">
+                            <a class="arrow-btn" href="#top">
+                                <img src="../images/arrow-btn.png" alt="btn">
+                            </a>
+                        </div>
+                        <div class="border">
+                            <a class="telephone-btn" href="#">
+                                <img src="../images/telephone-btn.png" alt="btn">
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>
+            <div class="holder-service">
+                <img class="decor-area" src="../images/decor.png" alt="decor">
+                <section class="container">
+                    <div class="service">
+                        <div class="service-text">
+                            <h5>
+                                Те, в чому ми кращі
+                            </h5>
+                            <h3>
+                                НАШІ ПОСЛУГИ
+                            </h3>
+                            <p>
+                                Сайт рыбатекст поможет дизайнеру, верстальщику,
+                                вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающем.
+                            </p>
+                            <p>
+                                При создании генератора мы использовали небезизвестный
+                                универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет.
+                            </p>
+                            <p>
+                                По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у
+                                некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum.
+                            </p>
+                        </div>
+                        <div class="service-block border-radius-53 box-shadow ">
+                            <img class="decor" src="../images/decoration-1.png" alt="decoration">
+                            <h3>
+                                КОНСУЛЬТАЦІЯ ЛІКАРІВ
+                            </h3>
+                            <button class="btn btn-xl">
+                                Детальніше
+                            </button>
+                        </div>
+                        <div class="service-block border-radius-53 box-shadow ">
+                            <img class="decor" src="../images/decoration-2.png" alt="decoration">
+                            <h3>
+                                ВИКЛИК ЛІКАРЯ ДОДОМУ
+                            </h3>
+                            <button class="btn btn-xl">
+                                Детальніше
+                            </button>
+                        </div>
+                        <div class="service-block border-radius-53 box-shadow ">
+                            <img class="decor" src="../images/decoration-3.png" alt="decoration">
+                            <h3>
+                                ВАКЦИНАЦІЯ
+                            </h3>
+                            <button class="btn btn-xl">
+                                Детальніше
+                            </button>
+                        </div>
+                        <div class="service-block border-radius-53 box-shadow ">
+                            <img class="decor" src="../images/decoration-4.png" alt="decoration">
+                            <h3>
+                                МАНІПУЛЯЦІЇ
+                            </h3>
+                            <button class="btn btn-xl">
+                                Детальніше
+                            </button>
+                        </div>
+                        <div class="service-block border-radius-53 box-shadow ">
+                            <img class="decor" src="../images/decoration-5.png" alt="decoration">
+                            <h3>
+                                ЛАБОРАТОРНА ДІАГНОСТИКА
+                            </h3>
+                            <button class="btn btn-xl">
+                                Детальніше
+                            </button>
+                        </div>
+                        <div class="service-block border-radius-53 box-shadow ">
+                            <img class="decor" src="../images/decoration-6.png" alt="decoration">
+                            <h3>
+                                ТЕСТИ НА COVID-19
+                            </h3>
+                            <button class="btn btn-xl">
+                                Детальніше
+                            </button>
+                        </div>
+                        <div class="service-block border-radius-53 box-shadow ">
+                            <img class="decor" src="../images/decoration-7.png" alt="decoration">
+                            <h3>
+                                АКЦІЇ
+                            </h3>
+                            <button class="btn btn-xl">
+                                Детальніше
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </div>
             <section class="container">
                 <div class="prices">
                     <div class="display-flex margin-bottom-46">
@@ -414,7 +432,7 @@
                             <h5 class="title">
                                 <div class="accordion-block border-radius-53 display-flex">
                                     <div class="wrapper">
-                                        <img class="decor height-70 padding-right-125" src="../images/decor.png" alt="decor">
+                                        <img class="decor height-70 padding-right-125" src="../images/decoration-1.png" alt="decoration">
                                         <h5>
                                             КОНСУЛЬТАЦІЯ ЛІКАРІВ
                                         </h5>
@@ -492,7 +510,7 @@
                             <h5 class="title">
                                 <div class="accordion-block border-radius-53 display-flex">
                                     <div class="wrapper">
-                                        <img class="decor height-70 padding-right-125" src="../images/decor.png" alt="decor">
+                                        <img class="decor height-70 padding-right-125" src="../images/decoration-2.png" alt="decoration">
                                         <h5>
                                             ВИКЛИК ЛІКАРЯ ДОДОМУ
                                         </h5>
@@ -570,7 +588,7 @@
                             <h5 class="title">
                                 <div class="accordion-block border-radius-53 display-flex">
                                     <div class="wrapper">
-                                        <img class="decor height-70 padding-right-125" src="../images/decor.png" alt="decor">
+                                        <img class="decor height-70 padding-right-125" src="../images/decoration-3.png" alt="decoration">
                                         <h5>
                                             ВАКЦИНАЦІЯ
                                         </h5>
@@ -648,7 +666,7 @@
                             <h5 class="title">
                                 <div class="accordion-block border-radius-53 display-flex">
                                     <div class="wrapper">
-                                        <img class="decor height-70 padding-right-125" src="../images/decor.png" alt="decor">
+                                        <img class="decor height-70 padding-right-125" src="../images/decoration-4.png" alt="decoration">
                                         <h5>
                                             МАНІПУЛЯЦІЇ
                                         </h5>
@@ -726,7 +744,7 @@
                             <h5 class="title">
                                 <div class="accordion-block border-radius-53 display-flex">
                                     <div class="wrapper">
-                                        <img class="decor height-70 padding-right-125" src="../images/decor.png" alt="decor">
+                                        <img class="decor height-70 padding-right-125" src="../images/decoration-5.png" alt="decoration">
                                         <h5>
                                             ЛАБОРАТОРНА ДІАГНОСТИКА
                                         </h5>
@@ -804,7 +822,7 @@
                             <h5 class="title">
                                 <div class="accordion-block border-radius-53 display-flex">
                                     <div class="wrapper">
-                                        <img class="decor height-70 padding-right-125" src="../images/decor.png" alt="decor">
+                                        <img class="decor height-70 padding-right-125" src="../images/decoration-6.png" alt="decoration">
                                         <h5>
                                             ТЕСТИ НА COVID-19
                                         </h5>
@@ -882,7 +900,7 @@
                             <h5 class="title">
                                 <div class="accordion-block border-radius-53 display-flex">
                                     <div class="wrapper">
-                                        <img class="decor height-70 padding-right-125" src="../images/decor.png" alt="decor">
+                                        <img class="decor height-70 padding-right-125" src="../images/decoration-7.png" alt="decoration">
                                         <h5>
                                             АКЦІЇ
                                         </h5>

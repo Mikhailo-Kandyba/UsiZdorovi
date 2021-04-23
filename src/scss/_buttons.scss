@@ -65,3 +65,37 @@
     text-decoration: none;
   }
 }
+
+.border {
+  border: solid 1px #808285;
+  width: 90px;
+  height: 85px;
+  padding: 4px;
+  border-radius: 50%;
+  margin-bottom: 21px;
+}
+
+.fixed-btn {
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+
+  a {
+    display: block;
+    background: #8ED8F8;
+    width: 80px;
+    border-radius: 50%;
+
+    &:hover {
+      border: solid 1px #003eff;
+    }
+  }
+
+  .arrow-btn {
+    padding: 26px 20px 18px;
+  }
+
+  .telephone-btn {
+    padding: 17px 20px 11px 20px;
+  }
+}

@@ -4,7 +4,7 @@
 
 .header-first-level {
   border-bottom: solid 1px #F1F1F1;
-  margin-bottom: 13px;
+  margin-bottom: 3px;
   padding-bottom: 3px;
 }
 
@@ -15,6 +15,7 @@
 
   .social-networks {
     display: flex;
+    margin-left: 50px;
 
     li {
       margin-right: 21px;
@@ -33,7 +34,7 @@
       font-family: 'Comfortaa', cursive;
 
       &:hover {
-        color: #39B54A;
+        color: #8ED8F8;
         cursor: pointer;
       }
 
@@ -44,14 +45,15 @@
   }
 }
 
+.btn-navigation {
+  display: flex;
+  align-items: center;
+}
+
 .navigation {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  li {
-    margin-right: 45px;
-  }
 
   .dropdown-menu {
     position: relative;
@@ -219,6 +221,7 @@
 
 .service-text {
   max-width: 840px;
+  position: relative;
   float: left;
 
   h5 {
@@ -233,6 +236,16 @@
 
   p {
     margin-bottom: 24px;
+  }
+}
+
+.holder-service {
+  position: relative;
+
+  .decor-area {
+    position: absolute;
+    top: 33%;
+    left: 13%;
   }
 }
 
@@ -318,7 +331,8 @@
   }
 
   &:hover {
-    background: #edf7f2;
+    background: #8ED8F8;
+    color: #fff;
   }
 }
 
