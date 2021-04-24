@@ -18,7 +18,7 @@
     margin-left: 50px;
 
     li {
-      margin-right: 21px;
+      margin-left: 21px;
 
       i {
         font-size: 27px;
@@ -117,7 +117,7 @@
   min-height: 785px;
   padding-top: 215px;
   position: relative;
-  margin-bottom: 202px;
+  margin-bottom: 198px;
 }
 
 .decoration {
@@ -138,6 +138,7 @@
   h2 {
     font-size: 63px;
     line-height: 58px;
+    margin-bottom: 5px;
 
     strong {
       font-weight: 300;
@@ -155,7 +156,7 @@
   display: flex;
   justify-content: flex-end;
   position: relative;
-  margin-bottom: 190px;
+  margin-bottom: 194px;
 
   .img-about-us {
     position: absolute;
@@ -282,7 +283,7 @@
 }
 
 .prices {
-  margin-bottom: 195px;
+  margin-bottom: 193px;
 }
 
 .prices-text {
@@ -296,6 +297,7 @@
     font-size: 58px;
     line-height: 58px;
     margin-bottom: 34px;
+    letter-spacing: -3px;
   }
 }
 
@@ -368,7 +370,7 @@
 }
 
 .doctors {
-  margin-bottom: 145px;
+  margin-bottom: 147px;
 }
 
 .doctors-text {
@@ -403,7 +405,7 @@
 
     .doctors-block {
       position: relative;
-      padding: 247px 122px 37px 53px;
+      padding: 253px 122px 37px 53px;
       margin-bottom: 90px;
 
       h3 {
@@ -436,7 +438,7 @@
 .doctors-block {
   .btn {
     position: absolute;
-    bottom: -29px;
+    bottom: -16px;
     right: 25%;
   }
 }
@@ -450,7 +452,7 @@
 .holder-btn {
   display: flex;
   justify-content: center;
-  margin-top: -18%;
+  margin-top: -19%;
 }
 
 .reviews {
@@ -477,12 +479,9 @@
   }
 }
 
-
-
 .feedback-slider {
   width: 100%;
   position: relative;
-  margin-bottom: 5px;
 
   .slick-slide {
     padding: 0 15px;
@@ -639,6 +638,8 @@
 }
 
 .contact-list {
+  width: 83%;
+
   li {
     margin-bottom: 10px;
   }
@@ -674,6 +675,7 @@
 .img-rights {
   text-align: right;
   max-width: 390px;
+  margin-top: -20px;
 
   a {
     display: block;
@@ -707,6 +709,15 @@
 .footer-list {
   a {
     font-size: 14px;
+  }
+}
+
+.holder-anchor-img {
+  display: flex;
+  flex-direction: column;
+
+  .bunny {
+    margin-bottom: 32px;
   }
 }
 

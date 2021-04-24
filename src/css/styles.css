@@ -117,8 +117,8 @@ h6 {
 .margin-bottom-20 {
   margin-bottom: -20px; }
 
-.margin-bottom-190 {
-  margin-bottom: 190px; }
+.margin-bottom-194 {
+  margin-bottom: 194px; }
 
 .padding-right-125 {
   margin-right: 125px; }
@@ -176,7 +176,7 @@ h6 {
   border-radius: 50px;
   font-size: 17px;
   line-height: 19px;
-  padding: 15px 44px;
+  padding: 18px 60px;
   position: relative; }
 
 .btn-sm-h {
@@ -186,7 +186,7 @@ h6 {
   padding: 15px 96px; }
 
 .btn-xxl {
-  padding: 15px 108px; }
+  padding: 16px 108px; }
 
 .btn-sm {
   padding: 27px 50px; }
@@ -232,6 +232,14 @@ h6 {
   border-radius: 50%;
   margin-bottom: 21px; }
 
+.holder-anchor {
+  display: flex; }
+  .holder-anchor a {
+    font-size: 14px;
+    margin-right: 7px; }
+  .holder-anchor img {
+    height: 18px; }
+
 .fixed-btn {
   position: fixed;
   bottom: 0;
@@ -261,7 +269,7 @@ h6 {
   box-shadow: -24px 0px 24px -12px rgba(34, 60, 80, 0.2); }
   .mobile-menu-navigation .navigation {
     display: block;
-    padding: 60px 108px 50px 30px; }
+    padding: 60px 107px 50px 60px; }
     .mobile-menu-navigation .navigation li {
       margin-bottom: 25px; }
 
@@ -318,7 +326,7 @@ h6 {
     display: flex;
     margin-left: 50px; }
     .header-area .social-networks li {
-      margin-right: 21px; }
+      margin-left: 21px; }
       .header-area .social-networks li i {
         font-size: 27px;
         border-radius: 5px; }
@@ -391,7 +399,7 @@ h6 {
   min-height: 785px;
   padding-top: 215px;
   position: relative;
-  margin-bottom: 202px; }
+  margin-bottom: 198px; }
 
 .decoration {
   position: absolute;
@@ -406,7 +414,8 @@ h6 {
     margin-bottom: 24px; }
   .banner-text h2 {
     font-size: 63px;
-    line-height: 58px; }
+    line-height: 58px;
+    margin-bottom: 5px; }
     .banner-text h2 strong {
       font-weight: 300;
       line-height: 75px; }
@@ -418,7 +427,7 @@ h6 {
   display: flex;
   justify-content: flex-end;
   position: relative;
-  margin-bottom: 190px; }
+  margin-bottom: 194px; }
   .about-us .img-about-us {
     position: absolute;
     top: 45px;
@@ -507,7 +516,7 @@ h6 {
     width: 100%; }
 
 .prices {
-  margin-bottom: 195px; }
+  margin-bottom: 193px; }
 
 .prices-text {
   max-width: 880px; }
@@ -516,7 +525,8 @@ h6 {
   .prices-text h3 {
     font-size: 58px;
     line-height: 58px;
-    margin-bottom: 34px; }
+    margin-bottom: 34px;
+    letter-spacing: -3px; }
 
 .bunny-2 {
   margin-top: -28px; }
@@ -567,7 +577,7 @@ h6 {
   align-items: center; }
 
 .doctors {
-  margin-bottom: 145px; }
+  margin-bottom: 147px; }
 
 .doctors-text {
   max-width: 875px;
@@ -592,7 +602,7 @@ h6 {
     margin-bottom: 48px; }
     .doctors-list .doctors-area .doctors-block {
       position: relative;
-      padding: 247px 122px 37px 53px;
+      padding: 253px 122px 37px 53px;
       margin-bottom: 90px; }
       .doctors-list .doctors-area .doctors-block h3 {
         margin-bottom: 6px;
@@ -611,7 +621,7 @@ h6 {
 
 .doctors-block .btn {
   position: absolute;
-  bottom: -29px;
+  bottom: -16px;
   right: 25%; }
 
 .doctor {
@@ -622,7 +632,7 @@ h6 {
 .holder-btn {
   display: flex;
   justify-content: center;
-  margin-top: -18%; }
+  margin-top: -19%; }
 
 .reviews .holder-btn {
   margin-top: -65px; }
@@ -640,8 +650,7 @@ h6 {
 
 .feedback-slider {
   width: 100%;
-  position: relative;
-  margin-bottom: 5px; }
+  position: relative; }
   .feedback-slider .slick-slide {
     padding: 0 15px; }
 
@@ -756,29 +765,29 @@ h6 {
   position: relative;
   z-index: -2; }
 
-.contact-list li {
-  margin-bottom: 10px; }
-
-.contact-list address {
-  font-style: inherit;
-  margin-right: -20px; }
-  .contact-list address:hover {
-    color: #39B54A;
-    cursor: pointer; }
-
-.contact-list .telephone a {
-  display: block; }
-
-.contact-list .social-networks i {
-  font-size: 30px;
-  margin-right: 20px; }
+.contact-list {
+  width: 83%; }
+  .contact-list li {
+    margin-bottom: 10px; }
+  .contact-list address {
+    font-style: inherit;
+    margin-right: -20px; }
+    .contact-list address:hover {
+      color: #39B54A;
+      cursor: pointer; }
+  .contact-list .telephone a {
+    display: block; }
+  .contact-list .social-networks i {
+    font-size: 30px;
+    margin-right: 20px; }
 
 .bunny-4 {
   margin-bottom: 50px; }
 
 .img-rights {
   text-align: right;
-  max-width: 390px; }
+  max-width: 390px;
+  margin-top: -20px; }
   .img-rights a {
     display: block; }
   .img-rights .rights {
@@ -801,6 +810,12 @@ h6 {
 
 .footer-list a {
   font-size: 14px; }
+
+.holder-anchor-img {
+  display: flex;
+  flex-direction: column; }
+  .holder-anchor-img .bunny {
+    margin-bottom: 32px; }
 
 .decoration-footer {
   position: absolute;
@@ -908,10 +923,8 @@ h6 {
     min-width: 80px; }
     .navigation .dropdown-menu:after {
       left: 87%; }
-  .navigation li {
-    margin-right: 29px; }
-    .navigation li a {
-      font-size: 15px; }
+  .navigation li a {
+    font-size: 15px; }
   .banner {
     background-size: 550px;
     padding-top: 80px;
@@ -1035,7 +1048,9 @@ h6 {
   .map {
     margin-bottom: 13px; }
   iframe {
-    height: 300px; } }
+    height: 300px; }
+  .holder-anchor-img .bunny {
+    margin-bottom: 85px; } }
 
 @media (max-width: 767px) {
   .header {
@@ -1051,7 +1066,7 @@ h6 {
     .header-area .social-networks {
       position: absolute;
       top: 0;
-      left: 0;
+      left: -20px;
       margin-left: 0; }
   .navigation {
     display: none; }
@@ -1148,4 +1163,8 @@ h6 {
     flex-direction: column;
     align-items: center; }
   .logo-footer {
-    margin-bottom: 10px; } }
+    margin-bottom: 10px; }
+  .holder-anchor-img .bunny {
+    margin-bottom: 0; }
+  .holder-anchor-img .holder-anchor {
+    display: none; } }
