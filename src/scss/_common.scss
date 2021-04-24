@@ -246,6 +246,7 @@
     position: absolute;
     top: 33%;
     left: 13%;
+    z-index: 0;
   }
 }
 
@@ -260,6 +261,7 @@
   float: left;
   height: 330px;
   position: relative;
+  background: #fff;
 
   .btn {
     position: absolute;
@@ -595,6 +597,22 @@
   }
 }
 
+.holder-contact {
+  position: relative;
+
+  .decor-area {
+    position: absolute;
+    top: -17px;
+    right: 12%;
+    z-index: -10;
+  }
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+
 .contact-text {
   max-width: 610px;
 
@@ -615,6 +633,9 @@
 
 .contact-block {
   padding: 40px 20px 80px 55px;
+  background: #fff;
+  position: relative;
+  z-index: -2;
 }
 
 .contact-list {

@@ -60,6 +60,14 @@
     }
   }
 
+  .holder-service {
+    .decor-area {
+      top: 31%;
+      left: 1%;
+      width: 255px;
+    }
+  }
+
   .service-text {
     max-width: 640px;
 
@@ -92,16 +100,17 @@
 
   .doctors-block {
     .btn {
-      right: 18%;
+      right: 21%;
     }
   }
 
   .doctor {
-    right: 15%;
+    right: 17%;
   }
 
   .holder-btn {
-    margin-top: -23%;
+    margin-top: -16%;
+    margin-right: 2%;
   }
 
   .reviews-text {
@@ -137,7 +146,14 @@
     margin-bottom: 100px;
   }
 
-  .contact-text {
+  .holder-contact {
+    .decor-area {
+      right: 1%;
+      width: 255px;
+    }
+  }
+
+    .contact-text {
     max-width: 410px;
     margin-right: 15px;
 
@@ -236,6 +252,16 @@
       }
     }
   }
+  .holder-service {
+    .decor-area {
+      top: 20%;
+    }
+  }
+
+  .fixed-btn {
+    right: 0;
+  }
+
 
   .service-text {
     max-width: 100%;
@@ -327,6 +353,7 @@
   .doctors {
     .holder-btn {
       justify-content: center;
+      margin-top: -20%;
     }
   }
 
@@ -429,7 +456,9 @@
 
     .social-networks {
       position: absolute;
+      top: 0;
       left: 0;
+      margin-left: 0;
     }
   }
 
@@ -545,6 +574,11 @@
 
   .doctors {
     margin-bottom: 100px;
+
+    .holder-btn{
+      margin-right: 0;
+      margin-top: -10px;
+    }
   }
 
   .feedback-slider {
@@ -567,13 +601,20 @@
     bottom: -50px;
   }
 
-  .display-flex-3 {
+  .contact {
     flex-direction: column;
     align-items: center;
   }
 
   .holder-btn {
     justify-content: center;
+  }
+
+  .holder-contact {
+    .decor-area {
+      top: 34%;
+      right: 0;
+    }
   }
 
   .contact-list {
