@@ -54,21 +54,21 @@ a {
   color: #58595B;
   text-decoration: none; }
   a:hover {
-    color: #8ED8F8; }
+    color: #F68B1F; }
   a:focus {
     outline: none; }
 
 i {
   color: #39B54A; }
   i:hover {
-    color: #8ED8F8; }
+    color: #F68B1F; }
 
 button {
   cursor: pointer; }
   button:focus {
     outline: none; }
   button:hover {
-    background: #8ED8F8;
+    background: #F68B1F;
     color: #58595B; }
 
 img {
@@ -178,6 +178,8 @@ h6 {
   line-height: 19px;
   padding: 18px 60px;
   position: relative; }
+  .btn:hover {
+    background: #ffaa00; }
 
 .btn-sm-h {
   padding: 11px 57px; }
@@ -246,7 +248,7 @@ h6 {
   z-index: 20; }
   .fixed-btn a {
     display: block;
-    background: #8ED8F8;
+    background: #39B54A;
     width: 80px;
     border-radius: 50%; }
     .fixed-btn a:hover {
@@ -255,6 +257,9 @@ h6 {
     padding: 26px 20px 18px; }
   .fixed-btn .telephone-btn {
     padding: 17px 20px 11px 20px; }
+
+.background-orange {
+  background: #F68B1F; }
 
 .mobile-menu-navigation {
   position: fixed;
@@ -502,7 +507,7 @@ h6 {
   float: left;
   height: 330px;
   position: relative;
-  background: #fff; }
+  background: #F68B1F; }
   .service-block .btn {
     position: absolute;
     bottom: -8%; }
@@ -555,8 +560,7 @@ h6 {
   .ui-accordion .ui-accordion-header:focus {
     outline: none; }
   .ui-accordion .ui-accordion-header:hover {
-    background: #8ED8F8;
-    color: #fff; }
+    background: #EDEEEE; }
 
 .ui-accordion-header-active button:after {
   transform: rotate(-45deg); }

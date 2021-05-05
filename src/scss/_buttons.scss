@@ -7,6 +7,10 @@
   line-height: 19px;
   padding: 18px 60px;
   position: relative;
+
+  &:hover {
+    background: #ffaa00;
+  }
 }
 
 .btn-sm-h {
@@ -95,7 +99,7 @@
 
   a {
     display: block;
-    background: #8ED8F8;
+    background: #39B54A;
     width: 80px;
     border-radius: 50%;
 
@@ -111,4 +115,8 @@
   .telephone-btn {
     padding: 17px 20px 11px 20px;
   }
+}
+
+.background-orange {
+  background: #F68B1F;
 }
