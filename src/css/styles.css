@@ -342,7 +342,7 @@ h6 {
       color: #58595B;
       font-family: 'Comfortaa', cursive; }
       .header-area .social-networks #select:hover {
-        color: #8ED8F8;
+        color: #F68B1F;
         cursor: pointer; }
       .header-area .social-networks #select:focus {
         outline: none; }
@@ -766,8 +766,7 @@ h6 {
 .contact-block {
   padding: 40px 20px 80px 55px;
   background: #fff;
-  position: relative;
-  z-index: -2; }
+  position: relative; }
 
 .contact-list {
   width: 83%; }
