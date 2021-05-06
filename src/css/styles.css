@@ -765,8 +765,7 @@ h6 {
 
 .contact-block {
   padding: 40px 20px 80px 55px;
-  background: #fff;
-  position: relative; }
+  background: #fff; }
 
 .contact-list {
   width: 83%; }
@@ -799,7 +798,9 @@ h6 {
 
 .map {
   margin-bottom: 73px;
-  margin-top: -61px; }
+  margin-top: -61px;
+  position: relative;
+  z-index: 2; }
   .map iframe {
     width: 100%; }
 

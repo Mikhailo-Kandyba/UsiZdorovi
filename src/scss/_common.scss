@@ -632,7 +632,6 @@
 .contact-block {
   padding: 40px 20px 80px 55px;
   background: #fff;
-  position: relative;
 }
 
 .contact-list {
@@ -688,6 +687,8 @@
 .map {
   margin-bottom: 73px;
   margin-top: -61px;
+  position: relative;
+  z-index: 2;
 
   iframe {
     width: 100%;
